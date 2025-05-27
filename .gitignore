@@ -1,0 +1,8 @@
+# Compiled output
+dist
+# Logs / temp
+npm-debug.log*
+.DS_Store
+# IDE settings
+.idea
+.vscode
