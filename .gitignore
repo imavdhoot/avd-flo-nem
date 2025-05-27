@@ -6,3 +6,4 @@ npm-debug.log*
 # IDE settings
 .idea
 .vscode
+node_modules/
