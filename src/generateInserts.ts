@@ -11,7 +11,7 @@ export async function generateInserts(input: string, output: string): Promise<vo
   const startTs = Date.now();
   const outStream = fs.createWriteStream(output, { flags: "w" });
 
-  const ctx: MeterContext = { nmi: null, interval: null, recordCount: 0 };
+  const ctx: MeterContext = { nmi: null, interval: null, recordCount: 0, totalIntervals: 0 };
 
   log(`[generateInserts] !!! processing input: ${input}`);
 
@@ -38,6 +38,7 @@ export async function generateInserts(input: string, output: string): Promise<vo
           resolve();
         });        
       } catch (err) {
+        log(`[generateInserts] Error in processing: `, err);
         reject(err);
       }
     });

@@ -17,8 +17,10 @@ avd-flo-nem/
 ├─ dist/                   # compiled JS (ignored in Git)
 ├─ example.csv             # sample input (add your own)
 ├─ output.sql              # generated SQL (after running)
+├─ design-decisions.md     # design choices summary
 ├─ package.json
 ├─ tsconfig.json
+├─ README.md
 └─ .gitignore
 ```
 
@@ -29,7 +31,7 @@ avd-flo-nem/
 1. **Install dependencies**
 
    ```bash
-   npm install        # or: yarn
+   npm install 
    ```
 
 2. **Build the project** (compiles TS → JS into `dist/`):
@@ -62,6 +64,21 @@ avd-flo-nem/
 
    ```
 
+### 🗄️ SQL table schema
+
+```sql
+-- meter_readings: one row per interval reading
+CREATE TABLE meter_readings (
+    id           UUID        DEFAULT gen_random_uuid() PRIMARY KEY,
+    nmi          VARCHAR(10) NOT NULL,       -- National Meter Identifier
+    "timestamp"  TIMESTAMP   NOT NULL,       -- exact interval start time
+    consumption  NUMERIC     NOT NULL,       -- energy value (kWh)
+
+    -- stop duplicate uploads of the same interval for given NMI
+    CONSTRAINT meter_readings_unique UNIQUE (nmi, "timestamp")
+);
+```   
+
 ---
 
 ## 🛠️ NPM scripts
@@ -70,14 +87,18 @@ avd-flo-nem/
 |-------------------|---------------------------------------------------|
 | `npm run dev`     | Run TS directly with _ts-node_ (no build needed)  |
 | `npm run build`   | Transpile to `dist/`                              |
-| `npm start`       | Shortcut to run the compiled CLI                  |
+| `npm run dev`     | Shortcut to run with given files                  |
 
 ---
+
+## 📘 Additional Documentation
+
+- [Design Decisions & Implementation Summary](./design-decisions.md)
 
 ## 📌 Improvement ideas
 
 * Unit tests with Jest + fixture NEM12 files  
-* Bulk-insert optimisation (`COPY` into Postgres)  
+* Bulk-insert optimisation (instead of indivisual insert can modify as bulk query)
 * Auto-detect 5-min & 15-min interval files  
 * Direct stream to DB instead of writing SQL file
 
