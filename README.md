@@ -2,6 +2,8 @@
 
 A streaming CLI utility that converts Australian **NEM12** interval-meter files (`example.csv`) into ready-to-run SQL inserts (`output.sql`) for the `meter_readings` table.
 
+📘 See [Design Decisions & Implementation Summary](./design-decisions.md) for rationale and structure.
+
 ---
 
 ## 📁 Project structure
@@ -42,19 +44,19 @@ avd-flo-nem/
 
 3. **Process a Input file to generate Insert statements**
 	
-	Give the input file name and the output file name while running as shown below :
+	Give the input file name and the output file name while running as shown below.
+	With this, it reads input.csv and writes to ⟶ output.sql:
 
    ```bash
-   # reads example.csv ⟶ writes output.sql
-   node dist/generateInserts.js example.csv output.sql
+   node dist/generateInserts.js input.csv output.sql
    ```
 
    *Dev shortcut:*  
    ```bash
-   # reads example.csv ⟶ writes output.sql
-   # runs the TypeScript directly via `ts-node` for example.csv file and creates output.sql file.
    npm run dev
    ```
+   Uses the sample files to execute the code.
+   Runs the TypeScript directly via `ts-node` for example.csv file and creates output.sql file.
 
 
 4. **(Optional) Load into MySQL**

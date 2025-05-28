@@ -19,7 +19,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 01:00:00', 1.344);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 01:30:00', 1.773);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 02:00:00', 0.848);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-01 17:00:00', 0);
@@ -41,7 +40,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 01:00:00', 1.543);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 01:30:00', 1.234);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 02:00:00', 0.987);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-02 17:00:00', 0);
@@ -63,7 +61,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 01:00:00', 1.423);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 01:30:00', 1.37);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 02:00:00', 0.988);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-03 17:00:00', 0);
@@ -85,7 +82,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-04 01:00:00', 1.563);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-04 01:30:00', 1.344);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-04 02:00:00', 1.087);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201009', '2005-03-04 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-02-28 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-02-28 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-02-28 17:00:00', 0);
@@ -107,7 +103,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 01:00:00', 1.423);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 01:30:00', 1.2);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 02:00:00', 0.98);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-01 17:00:00', 0);
@@ -129,7 +124,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 01:00:00', 1.31);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 01:30:00', 1.342);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 02:00:00', 0.998);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-02 17:00:00', 0);
@@ -151,7 +145,6 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 01:00:00', 1.563);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 01:30:00', 1.344);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 02:00:00', 1.087);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 02:30:00', 1);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 16:00:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 16:30:00', 0);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-03 17:00:00', 0);
@@ -173,4 +166,3 @@ INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010',
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-04 01:00:00', 1.39);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-04 01:30:00', 1.222);
 INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-04 02:00:00', 1.134);
-INSERT INTO meter_readings (nmi, "timestamp", consumption) VALUES ('NEM1201010', '2005-03-04 02:30:00', 1);
