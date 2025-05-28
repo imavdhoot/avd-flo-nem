@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build":"tsc -p .",
-    "dev":"ts-node src/index.ts",
-    "start":"node dist/index.js",
+    "build": "tsc -p .",
+    "dev": "ts-node src/generateInserts.ts example.csv output.sql",
+    "start": "node dist/generateInserts.js",
+    "build-and-run": "npm run build && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,8 +14,13 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/line-reader": "^0.0.37",
     "@types/node": "^22.15.21",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "line-reader": "^0.4.0"
   }
 }
