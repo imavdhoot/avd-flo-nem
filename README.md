@@ -1,6 +1,7 @@
 # Flo NEM12 → SQL Parser (TypeScript)
 
-A streaming CLI utility that converts Australian **NEM12** interval-meter files (`example.csv`) into ready-to-run SQL inserts (`output.sql`) for the `meter_readings` table.
+A streaming CLI utility that converts Australian **NEM12** interval-meter files (`example.csv`) into ready-to-run SQL inserts (`output.sql`) for the `meter_readings` table. 
+**Timestamp in sql file are GMT against the Singapore Time values.**
 
 📘 See [Design Decisions & Implementation Summary](./design-decisions.md) for rationale and structure.
 
