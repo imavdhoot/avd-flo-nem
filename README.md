@@ -98,11 +98,3 @@ CREATE TABLE meter_readings (
 
 - [Design Decisions & Implementation Summary](./design-decisions.md)
 
-## 📌 Improvement ideas
-
-* Unit tests with Jest + fixture NEM12 files  
-* Bulk-insert optimisation (instead of indivisual insert can modify as bulk query)
-* Auto-detect 5-min & 15-min interval files  
-* Direct stream to DB instead of writing SQL file
-
----
