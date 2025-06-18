@@ -36,6 +36,7 @@ export async function handler(parts: string[], ctx: MeterContext, out: fs.WriteS
   
   // Only 300 records have data we need to creating insert statement
   // so skinpping other records
+  // skip 300 records if it is not having NMI value or interval value
   if (rec !== "300" || !ctx.nmi || !ctx.interval) return;
 
   const base = parseBaseDate(parts[1]);
